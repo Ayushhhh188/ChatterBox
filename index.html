@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatter Box</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: url('images.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+        header {
+            text-align: center;
+            padding: 4rem 1rem;
+            background-color: #000;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            color: #aaa;
+            margin-bottom: 2rem;
+        }
+
+        .logo img {
+            width: 120px;
+            height: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            font-size: 1.2rem;
+            color: #fff;
+            background: #0071e3;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .cta:hover {
+            background: #005bb5;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            padding: 4rem 1rem;
+            background: #1c1c1c;
+        }
+
+        .feature {
+            text-align: center;
+            max-width: 300px;
+            background: #2b2b2b;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature img {
+            width: 100%;
+            max-width: 200px;
+            margin-bottom: 1rem;
+            border-radius: 12px;
+        }
+
+        .feature:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.8rem;
+            color: #ff758c;
+        }
+
+        .feature p {
+            font-size: 1rem;
+            color: #ddd;
+            line-height: 1.5;
+        }
+
+        footer {
+            background: #111;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 4rem;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Untitled_logo_1_free-file.jpg" alt="Chatter Box Logo">
+        </div>
+        <h1>Chatter Box</h1>
+        <p>Where Conversations Meet Innovation.</p>
+        <a href="#learn-more" class="cta">Discover More</a>
+    </header>
+
+    <section class="features">
+        <div class="feature">
+            <img src="download.jpeg" alt="Chat Feature">
+            <h3>Smart Conversations</h3>
+            <p>Experience AI-driven, personalized chats designed just for you.</p>
+        </div>
+        <div class="feature">
+            <img src="Fx Magicoin _ _Insert coin_.gif"" alt="Games Feature">
+            <h3>Interactive Games</h3>
+            <p>Play Chess and Tic-Tac-Toe with an AI that keeps you engaged.</p>
+        </div>
+        <div class="feature">
+            <img src="Artificial intelligence (AI).jpeg" alt="Mood Booster">
+            <h3>Mood Booster</h3>
+            <p>Get jokes, uplifting messages, and lighthearted chats whenever you need them.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Chatter Box. Designed to inspire connections.</p>
+    </footer>
+</body>
+</html>
